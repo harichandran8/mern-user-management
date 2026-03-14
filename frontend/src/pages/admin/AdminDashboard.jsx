@@ -127,7 +127,6 @@ const AdminDashboard = () => {
   return (
     <div className="p-10 bg-gray-100 min-h-screen">
 
-      {/* HEADER */}
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl font-bold">Admin Dashboard</h2>
 
@@ -139,7 +138,6 @@ const AdminDashboard = () => {
         </button>
       </div>
 
-      {/* CREATE USER */}
       <div className="bg-white p-5 rounded shadow mb-8">
         <h3 className="text-lg font-semibold mb-3">Create User</h3>
 
@@ -179,7 +177,7 @@ const AdminDashboard = () => {
         </div>
       </div>
 
-      {/* SEARCH */}
+      
       <div className="flex justify-between items-center mb-4">
         <input
           type="text"
@@ -192,7 +190,7 @@ const AdminDashboard = () => {
         <p className="font-medium">Total Users: {users.length}</p>
       </div>
 
-      {/* USERS TABLE */}
+     
       <div className="bg-white rounded shadow overflow-hidden">
 
         <table className="w-full">
@@ -211,7 +209,7 @@ const AdminDashboard = () => {
                 key={user._id}
                 className="text-center hover:bg-gray-100"
               >
-                {/* NAME */}
+                
                 <td className="border p-2">
                   {editUserId === user._id ? (
                     <input
@@ -224,7 +222,7 @@ const AdminDashboard = () => {
                   )}
                 </td>
 
-                {/* EMAIL */}
+                
                 <td className="border p-2">
                   {editUserId === user._id ? (
                     <input
@@ -237,7 +235,7 @@ const AdminDashboard = () => {
                   )}
                 </td>
 
-                {/* ACTION */}
+              
                 <td className="border p-2">
 
                   {editUserId === user._id ? (

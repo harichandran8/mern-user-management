@@ -78,7 +78,7 @@ const Register = () => {
 
         <div className="flex flex-col gap-4">
 
-          {/* Name */}
+          
           <div>
             <input
               type="text"
@@ -92,7 +92,7 @@ const Register = () => {
             )}
           </div>
 
-          {/* Email */}
+         
           <div>
             <input
               type="email"
@@ -106,7 +106,7 @@ const Register = () => {
             )}
           </div>
 
-          {/* Password */}
+          
           <div className="relative">
             <input
               type={showPassword ? "text" : "password"}
@@ -129,7 +129,7 @@ const Register = () => {
             )}
           </div>
 
-          {/* Confirm Password */}
+          
           <div className="relative">
             <input
               type={showConfirmPassword ? "text" : "password"}

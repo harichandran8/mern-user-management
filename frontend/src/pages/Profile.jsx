@@ -84,7 +84,7 @@ const Profile = () => {
 
         {user && (
           <>
-            {/* Profile Image */}
+            
             <label htmlFor="fileInput" className="cursor-pointer flex justify-center">
               <img
                 src={
@@ -125,7 +125,6 @@ const Profile = () => {
               </div>
             )}
 
-            {/* PROFILE INFO */}
             {!editMode ? (
               <>
                 <h2 className="text-xl font-semibold mt-6">{user.name}</h2>

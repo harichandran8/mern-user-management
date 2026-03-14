@@ -66,7 +66,7 @@ const Login = () => {
 
         <div className="flex flex-col gap-4">
 
-          {/* Email */}
+          
           <div>
             <input
               type="email"
@@ -80,7 +80,7 @@ const Login = () => {
             )}
           </div>
 
-          {/* Password */}
+          
           <div className="relative">
             <input
               type={showPassword ? "text" : "password"}

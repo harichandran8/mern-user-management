@@ -76,7 +76,7 @@ README.md
 
 ## 1. Clone the Repository
 
-git clone https://github.com/yourusername/mern-user-management.git
+git clone https://github.com/harichandran8/mern-user-management.git
 
 ## 2. Go to the Project Folder
 
